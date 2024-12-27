@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes animi-1 {
+        from {
+          background-color: aqua;
+          transform: scale(2,2);
+          border-radius: 7px;
+          box-shadow: 2px 2px 5px 10px;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-image: url(https://media.gettyimages.com/id/856604270/photo/cock-fighting.jpg?s=612x612&w=gi&k=20&c=TAYam0EUJ8lldWRpBepxv_VhcT5kj7YOT0c8fcAUkAg=);
+        }
+        to {
+          background-color: brown;
+         transform: scale(5,5);
+         border-radius: 25px;
+         box-shadow: 2px 2px 5px 10px red;
+          width: 250px;
+          background-size: 100%;
+          background-repeat: repeat;
+          background-image: url(https://thumbs.dreamstime.com/b/roosters-fight-1430270.jpg);
+        }
+      }
+
+      .div1 {
+        
+        height: 100px;
+        width: 100px;
+        margin: 200px auto;
+        animation-name: animi-1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 1s;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+  </body>
+</html>
